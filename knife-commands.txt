@@ -1,0 +1,6 @@
+knife bootstrap 10.137.167.78  -x vagrant -P vagrant --sudo --node-name test.node
+
+knife node edit test.node
+
+knife cookbook upload apache2
+
